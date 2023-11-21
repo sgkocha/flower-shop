@@ -1,0 +1,33 @@
+.product {
+    padding-top: 16.96px;
+    padding-bottom: 15px;
+    padding-left: 17.9px;
+    padding-right: 17.53px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.product-title {
+    margin-top: 9.14px;
+    font-size: 22px;
+    color: #000000;
+}
+
+.product-control {
+    margin-top: 38px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #838383;
+}
+
+.product-controls-btn {
+    display: block;
+    padding-left: 28px;
+    background: transparent url('/public/images/cart2.png') no-repeat;
+    border: 0;
+    font-size: 18px;
+    color: #FF8F52;
+    cursor: pointer;
+}

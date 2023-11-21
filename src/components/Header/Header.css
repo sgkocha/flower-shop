@@ -1,0 +1,33 @@
+.header {
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 120px;
+    padding-right: 118px;
+    background-color: #FFFFFF;
+}
+
+.header-nav-list {
+    gap: 23px;
+    list-style-type: none;   
+}
+
+.header-nav-list li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-nav-list li a:hover {
+    color: #FF8F52;
+}
+
+.header-controls {
+    gap: 19.74px;
+}
+
+.header-controls button {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
