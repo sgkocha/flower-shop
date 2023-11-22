@@ -60,3 +60,144 @@
 .home-best-box {
     margin-top: 33px;
 }
+
+.home-latest {
+    margin-top: 102.84px;
+    margin-left: 120px;
+    margin-right: 123px;
+}
+
+.home-latest-box {
+    margin-top: 25px;
+}
+
+.home-latest-item {
+    padding-top: 10px;
+    padding-bottom: 18px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.latest-item-about {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.latest-item-author {
+    gap: 10px;
+}
+
+.author-name {
+    font-size: 16px;
+    color: #000000;
+}
+
+.latest-item-date {
+    font-size: 16px;
+    color: #838383;
+}
+
+.latest-item-img {
+    margin-top: 11px;
+}
+
+.latest-item-title {
+    margin-top: 16.91px;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.latest-item-desc {
+    width: 334px;
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #838383;
+}
+
+.latest-item-info {
+    margin-top: 22px;
+    margin-left: 17px;
+    margin-right: 15px;
+}
+
+.latest-item-stats {
+    gap: 12px;
+}
+
+.latest-item-likes,
+.latest-item-views {
+    padding-left: 19px;
+    font-size: 12px;
+    color: #838383;
+}
+
+.latest-item-likes {
+    background: url("/public/images/like.svg") no-repeat;
+    background-position: 0;
+}
+
+.latest-item-views {
+    background: url("/public/images/view.svg") no-repeat;
+    background-position: 0;
+}
+
+.latest-item-more {
+    display: block;
+    margin-top: -5px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.home-comments {
+    margin-top: 116px;
+    margin-left: 121px;
+    margin-right: 120px;
+}
+
+.home-comments-box {
+    margin-top: 16px;
+}
+
+.home-comments-item {
+    gap: 16px;
+    width: 382px;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    padding-left: 29px;
+    padding-right: 28px;
+    background-color: #FFFFFF;
+}
+
+.home-comments-item:nth-child(2) {
+    height: 238px;
+}
+
+.home-comments-item:nth-child(3) {
+    height: 277px;
+}
+
+.comments-item-info {
+    margin-top: 18px;
+}
+
+.comments-item-name {
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+.comments-item-desc {
+    margin-top: 11px;
+    font-size: 20px;
+    color: #838383;
+}
+
+.comments-item-rating {
+    gap: 10px;
+    margin-top: 40px;
+}
+

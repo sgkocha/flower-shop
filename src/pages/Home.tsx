@@ -49,6 +49,138 @@ const Home = () => {
           />
         </div>
       </div>
+      <div className="home-latest">
+        <div className="home-bl-caption d-f align-center">
+          <div className="home-bl-pattern"></div>
+          <h3 className="home-bl-title">Latest posts</h3>
+          <div className="home-bl-pattern"></div>
+        </div>
+        <div className="home-latest-box d-f jc-sb">
+          <div className="home-latest-item">
+            <div className="latest-item-about d-f jc-sb align-center">
+              <div className="latest-item-author d-f align-center">
+                <div><img src="images/post-author1.png" alt="post-author1" /></div>
+                <div className="author-name">Emily</div>
+              </div>
+              <div className="latest-item-date">2022/22/8</div>
+            </div>
+            <div className="latest-item-img"><img src="images/latest1.png" alt="latest1" /></div>
+            <div className="latest-item-title">Best flowers for inside home</div>
+            <p className="latest-item-desc">
+              All the flowers are best for your lovly house
+              just get the one you love the most 😊
+            </p>
+            <div className="latest-item-info d-f jc-sb align-center">
+              <div className="latest-item-stats d-f">
+                <div className="latest-item-likes">15</div>
+                <div className="latest-item-views">2001</div>
+              </div>
+              <a href="" className='latest-item-more'>Read more</a>
+            </div>
+          </div>
+          <div className="home-latest-item">
+            <div className="latest-item-about d-f jc-sb align-center">
+              <div className="latest-item-author d-f align-center">
+                <div><img src="images/post-author1.png" alt="post-author1" /></div>
+                <div className="author-name">Emily</div>
+              </div>
+              <div className="latest-item-date">2022/22/8</div>
+            </div>
+            <div className="latest-item-img"><img src="images/latest2.png" alt="latest2" /></div>
+            <div className="latest-item-title">Best flowers for inside home</div>
+            <p className="latest-item-desc">
+              All the flowers are best for your lovly house
+              just get the one you love the most 😊
+            </p>
+            <div className="latest-item-info d-f jc-sb align-center">
+              <div className="latest-item-stats d-f">
+                <div className="latest-item-likes">15</div>
+                <div className="latest-item-views">2001</div>
+              </div>
+              <a href="" className='latest-item-more'>Read more</a>
+            </div>
+          </div>
+          <div className="home-latest-item">
+            <div className="latest-item-about d-f jc-sb align-center">
+              <div className="latest-item-author d-f align-center">
+                <div><img src="images/post-author1.png" alt="post-author1" /></div>
+                <div className="author-name">Emily</div>
+              </div>
+              <div className="latest-item-date">2022/22/8</div>
+            </div>
+            <div className="latest-item-img"><img src="images/latest3.png" alt="latest3" /></div>
+            <div className="latest-item-title">Best flowers for inside home</div>
+            <p className="latest-item-desc">
+              All the flowers are best for your lovly house
+              just get the one you love the most 😊
+            </p>
+            <div className="latest-item-info d-f jc-sb align-center">
+              <div className="latest-item-stats d-f">
+                <div className="latest-item-likes">15</div>
+                <div className="latest-item-views">2001</div>
+              </div>
+              <a href="" className='latest-item-more'>Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="home-comments">
+        <div className="home-bl-caption d-f align-center">
+          <div className="home-bl-pattern"></div>
+          <h3 className="home-bl-title">Comments</h3>
+          <div className="home-bl-pattern"></div>
+        </div>
+        <div className="home-comments-box d-f jc-sb">
+          <div className="home-comments-item d-f">
+            <div><img src="images/comment-author1.png" alt="comment-author1" /></div>
+            <div className='comments-item-info'>
+              <div className="comments-item-name">Atena</div>
+              <p className="comments-item-desc">
+                I'm buying flower from them every weak, always fresh flowers and beutiful😍🌻... love'em so nuch..keep going 💯💯
+              </p>
+              <div className="comments-item-rating d-f">
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star2.png" alt="star2" /></div>
+              </div>
+            </div>
+          </div>
+          <div className="home-comments-item d-f">
+            <div><img src="images/comment-author2.png" alt="comment-author2" /></div>
+            <div className='comments-item-info'>
+              <div className="comments-item-name">pop Boy</div>
+              <p className="comments-item-desc">
+                I get flowers from them for my baby mama, she love them so much 🔥💯
+              </p>
+              <div className="comments-item-rating d-f">
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+              </div>
+            </div>
+          </div>
+          <div className="home-comments-item d-f">
+            <div><img src="images/comment-author3.png" alt="comment-author3" /></div>
+            <div className='comments-item-info'>
+              <div className="comments-item-name">Young Girl</div>
+              <p className="comments-item-desc">
+                Drip too hard, don't stand too close. You gon' fuck around and drown off this wave.
+              </p>
+              <div className="comments-item-rating d-f">
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+                <div><img src="images/star.png" alt="star" /></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   )
 }
