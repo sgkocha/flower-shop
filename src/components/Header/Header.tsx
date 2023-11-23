@@ -9,7 +9,7 @@ const Header = () => {
         <nav>
             <ul className="header-nav-list d-f align-center">
                 <li><Link to="/">Home</Link></li>
-                <li><a href="">Shop</a></li>
+                <li><Link to="shop">Shop</Link></li>
                 <li><a href="">Blog</a></li>
                 <li><a href="">About</a></li>
             </ul>
