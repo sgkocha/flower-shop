@@ -87,6 +87,7 @@
 }
 
 .single-reviews {
+    width: 580px;
     padding-top: 23px;
     padding-bottom: 44.5px;
     padding-left: 42px;
@@ -148,6 +149,7 @@
 }
 
 .single-maybe {
+    width: 625px;
     padding-top: 23px;
     padding-bottom: 34px;
     padding-left: 30px;

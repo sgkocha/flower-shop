@@ -8,7 +8,7 @@
 
 .header-nav-list {
     gap: 23px;
-    list-style-type: none;   
+    list-style-type: none;
 }
 
 .header-nav-list li a {
@@ -30,4 +30,121 @@
     background-color: transparent;
     border: 0;
     cursor: pointer;
+}
+
+/* Sign modal */
+.sign-info {
+    width: 488px;
+    margin-bottom: 0;
+    padding-top: 33px;
+    padding-bottom: 67px;
+    padding-left: 48px;
+    padding-right: 49px;
+}
+
+.sign-title {
+    font-size: 32px;
+    color: #000000;
+}
+
+.sign-caption a {
+    padding-left: 28px;
+    background: url("/public/images/home.png") no-repeat;
+    background-position-y: 2px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.sign-subtitle {
+    margin-top: 13px;
+    font-size: 18px;
+    color: #838383;
+}
+
+.sign-fm {
+    margin-top: 57px;
+}
+
+.sign-fm input {
+    display: block;
+    width: 391px;
+    margin-bottom: 14px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 29px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    color: #838383;
+}
+
+.sign-fm input:last-child {
+    margin-bottom: 0;
+}
+
+.sign-fm input::placeholder {
+    color: #838383;
+}
+
+.sign-fm .check-bl {
+    margin-top: 23px;
+    gap: 8px;
+}
+
+.sign-fm .check-bl input {
+    width: 16px;
+    height: 16px;
+}
+
+.sign-fm .check-bl label {
+    display: block;
+    margin-top: -3px;
+    font-size: 18px;
+    color: #838383;
+}
+
+.sign-fm button {
+    width: 391px;
+    margin-top: 66px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    background-color: #FF8F52;
+    border: 1px solid #FF8F52;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.register-bl {
+    margin-top: 40px;
+    gap: 4px;
+}
+
+.register-bl-title {
+    font-size: 20px;
+    color: #838383;
+}
+
+.register-bl-btn {
+    display: block;
+    background-color: transparent;
+    border: 0;
+    font-size: 20px;
+    color: #FF8F52;
+    cursor: pointer;
+}
+
+.sign-note {
+    margin-top: 45px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #838383;
+}
+
+.sign-note a {
+    text-decoration: none;
+    color: #FF8F52;
 }
